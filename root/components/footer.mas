@@ -1,0 +1,8 @@
+<!-- footer.mas start -->
+  <div class="footer">
+         &copy;  Scalable Informatics <% (sprintf "%i", 1900+(localtime)[5]) %></p>
+  </div>
+
+<!-- footer.mas end -->
+</body>
+</html>

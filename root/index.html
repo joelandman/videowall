@@ -1,0 +1,103 @@
+<& components/header.mas &>
+ 
+ 
+<!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Scalable Video Wall</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="http://video:10000">Cameras</a>
+                    </li>
+					<li>
+                        <a href="http://video:10000/raw">Raw Video</a>
+                    </li>
+                    <li>
+                        <a href="http://scalableinformatics.com">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Cameras
+                    <small>Online</small>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                	<div align="center" class="embed-responsive embed-responsive-16by9">
+    					<video autoplay loop class="embed-responsive-item">
+        					<source src=http://video:10000/ipc-1/latest.mp4 type=video/mp4>
+    					</video>
+					</div>               
+                </a>
+                <h3>
+                    <a href="/camera/ipc-1">IP Cam 1</a>
+                </h3>
+                <p>In front office, small Trendnet unit</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                	<div align="center" class="embed-responsive embed-responsive-16by9">
+    					<video autoplay loop class="embed-responsive-item">
+        					<source src=http://video:10000/ipc-2/latest.mp4 type=video/mp4>
+    					</video>
+					</div>               
+                </a>
+                <h3>
+                    <a href="/camera/ipc-2">IP Cam 2</a>
+                </h3>
+                <p>In conference room, small Foscam unit</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                	<div align="center" class="embed-responsive embed-responsive-16by9">
+    					<video autoplay loop class="embed-responsive-item">
+        					<source src=http://video:10000/ipc-3/latest.mp4 type=video/mp4>
+    					</video>
+					</div>               
+                </a>
+                <h3>
+                    <a href="/camera/ipc-3">IP Cam 3</a>
+                </h3>
+                <p>In conference room, larger Hikvision unit</p>
+            </div>
+            
+        <!-- /.row -->
+
+        <hr>
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+ 
+<& components/footer.mas &>

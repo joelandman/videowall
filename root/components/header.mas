@@ -1,0 +1,27 @@
+<%args>
+</%args>
+% my $jq_version    = "1.10.2";
+% my $bs_version    = "3.3.0";
+
+<!DOCTYPE html>
+<!-- header.mas start -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Scalable Unison Video Wall</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <script src="/jquery/js/jquery-<% $jq_version %>.js"></script>
+    <!-- Bootstrap Core CSS -->
+    <link href="bootstrap-<% $bs_version %>/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/3-col-portfolio.css" rel="stylesheet">
+
+   
+  </head>
+<body>
+<!-- header.mas end -->
